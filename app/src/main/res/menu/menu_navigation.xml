@@ -2,16 +2,24 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@id/actionAllItem"
+        android:title="@string/menu_item_all"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_view_list" />
+    <item
+        android:id="@id/actionIdeasItem"
+        android:title="@string/menu_item_ideas"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_lightbulb_on_outline" />
+    <item
+        android:id="@id/actionTodoItem"
+        android:title="@string/menu_item_todo"
+        android:orderInCategory="3"
+        android:icon="@drawable/ic_bookmark_check" />
+    <item
         android:id="@id/actionNotificationItem"
-        android:title="@string/notification"
-        android:orderInCategory="1"
-        android:icon="@drawable/ic_message_bulleted" />
-    <item
-        android:title="@string/search_title"
-        android:orderInCategory="1"
-        android:icon="@mipmap/ic_magnify" />
-    <item
-        android:title="@string/search_title"
-        android:orderInCategory="1"
-        android:icon="@mipmap/ic_magnify" />
+        android:title="@string/menu_item_notification"
+        android:orderInCategory="4"
+        android:icon="@drawable/ic_pencil_box" />
+
 </menu>

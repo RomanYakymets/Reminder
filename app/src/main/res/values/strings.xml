@@ -1,7 +1,26 @@
 <resources>
-    <string name="app_name">Todo</string>
+    <string name="app_name">Reminder</string>
     <string name="search_title">Search</string>
-    <string name="notification">Нагадування</string>
+
+    <string name="menu_item_all">All</string>
+    <string name="menu_item_ideas">Ideas</string>
+    <string name="menu_item_todo">ToDo</string>
+    <string name="menu_item_notification">Note</string>
+
     <string name="view_navigation_open">Open</string>
     <string name="view_navigation_close">Close</string>
+
+    <string name="tab_item_all">All</string>
+    <string name="tab_item_ideas">Ideas</string>
+    <string name="tab_item_todo">ToDo</string>
+    <string name="tab_item_notification">Notification</string>
+    
+    <string name="contextMenuDelete">Delete</string>
+    <string name="contextMenuEdit">Edit</string>
+
+    <string-array name="remind_array">
+        <item>ToDo</item>
+        <item>Ideas</item>
+        <item>Note</item>
+    </string-array>
 </resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card:cardElevation="2dp"
+        card:cardUseCompatPadding="true">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:rowCount="2"
+            android:columnCount="3">
+            <CheckBox
+                android:id="@+id/done"
+                android:layout_gravity="start"/>
+            <TextView
+                android:id="@+id/title"
+                android:textSize="12pt"
+                android:maxWidth="230sp"
+                android:layout_columnSpan="1"/>
+            <TextView
+                android:id="@+id/type"
+                android:layout_columnSpan="1"
+                android:layout_gravity="end"/>
+            <TextView
+                android:id="@+id/details"
+                android:layout_columnSpan="3"/>
+        </GridLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
